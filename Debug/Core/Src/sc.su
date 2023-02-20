@@ -1,0 +1,4 @@
+sc.c:4:17:load_3	40	static
+sc.c:14:17:load_4	56	static
+sc.c:35:6:sc_reduce	2128	static
+sc.c:362:6:sc_muladd	4176	static

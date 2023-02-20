@@ -1,0 +1,5 @@
+sha512.c:91:12:sha512_compress	2448	static
+sha512.c:147:5:sha512_init	16	static
+sha512.c:171:5:sha512_update	56	static
+sha512.c:218:8:sha512_final	32	static
+sha512.c:267:5:sha512	240	static

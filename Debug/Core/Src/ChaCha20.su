@@ -1,0 +1,5 @@
+ChaCha20.c:77:38:Chacha20_Xor	32	static
+ChaCha20.c:124:39:ChaCha20_SetCell	32	static
+ChaCha20.c:181:39:ChaCha20_Round	88	static
+ChaCha20.c:246:39:ChaCha20_FinalXor	40	static
+ChaCha20.c:273:39:ChaCha20_DeFinalXor	24	static

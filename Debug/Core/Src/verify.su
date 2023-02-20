@@ -1,0 +1,2 @@
+verify.c:7:12:consttime_equal	24	static
+verify.c:48:5:ed25519_verify	616	static

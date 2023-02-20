@@ -1,0 +1,8 @@
+sha3.c:11:6:sha3_keccakf	584	static
+sha3.c:103:5:sha3_init	24	static
+sha3.c:118:5:sha3_update	32	static
+sha3.c:138:5:sha3_final	24	static
+sha3.c:155:7:sha3	240	static
+sha3.c:167:5:sha3_seed	248	static
+sha3.c:180:6:shake_xof	16	static
+sha3.c:188:6:shake_out	32	static
