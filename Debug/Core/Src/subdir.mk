@@ -7,8 +7,10 @@
 C_SRCS += \
 ../Core/Src/CRC32.c \
 ../Core/Src/ChaCha20.c \
+../Core/Src/Ex_Flash.c \
 ../Core/Src/Frame.c \
 ../Core/Src/My_SDCard.c \
+../Core/Src/WQ25xx.c \
 ../Core/Src/add_scalar.c \
 ../Core/Src/fe.c \
 ../Core/Src/ge.c \
@@ -30,8 +32,10 @@ C_SRCS += \
 OBJS += \
 ./Core/Src/CRC32.o \
 ./Core/Src/ChaCha20.o \
+./Core/Src/Ex_Flash.o \
 ./Core/Src/Frame.o \
 ./Core/Src/My_SDCard.o \
+./Core/Src/WQ25xx.o \
 ./Core/Src/add_scalar.o \
 ./Core/Src/fe.o \
 ./Core/Src/ge.o \
@@ -53,8 +57,10 @@ OBJS += \
 C_DEPS += \
 ./Core/Src/CRC32.d \
 ./Core/Src/ChaCha20.d \
+./Core/Src/Ex_Flash.d \
 ./Core/Src/Frame.d \
 ./Core/Src/My_SDCard.d \
+./Core/Src/WQ25xx.d \
 ./Core/Src/add_scalar.d \
 ./Core/Src/fe.d \
 ./Core/Src/ge.d \
@@ -81,7 +87,7 @@ Core/Src/%.o: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/CRC32.d ./Core/Src/CRC32.o ./Core/Src/ChaCha20.d ./Core/Src/ChaCha20.o ./Core/Src/Frame.d ./Core/Src/Frame.o ./Core/Src/My_SDCard.d ./Core/Src/My_SDCard.o ./Core/Src/add_scalar.d ./Core/Src/add_scalar.o ./Core/Src/fe.d ./Core/Src/fe.o ./Core/Src/ge.d ./Core/Src/ge.o ./Core/Src/key_exchange.d ./Core/Src/key_exchange.o ./Core/Src/keypair.d ./Core/Src/keypair.o ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/sc.d ./Core/Src/sc.o ./Core/Src/seed.d ./Core/Src/seed.o ./Core/Src/sha3.d ./Core/Src/sha3.o ./Core/Src/sha512.d ./Core/Src/sha512.o ./Core/Src/sign.d ./Core/Src/sign.o ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/verify.d ./Core/Src/verify.o
+	-$(RM) ./Core/Src/CRC32.d ./Core/Src/CRC32.o ./Core/Src/ChaCha20.d ./Core/Src/ChaCha20.o ./Core/Src/Ex_Flash.d ./Core/Src/Ex_Flash.o ./Core/Src/Frame.d ./Core/Src/Frame.o ./Core/Src/My_SDCard.d ./Core/Src/My_SDCard.o ./Core/Src/WQ25xx.d ./Core/Src/WQ25xx.o ./Core/Src/add_scalar.d ./Core/Src/add_scalar.o ./Core/Src/fe.d ./Core/Src/fe.o ./Core/Src/ge.d ./Core/Src/ge.o ./Core/Src/key_exchange.d ./Core/Src/key_exchange.o ./Core/Src/keypair.d ./Core/Src/keypair.o ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/sc.d ./Core/Src/sc.o ./Core/Src/seed.d ./Core/Src/seed.o ./Core/Src/sha3.d ./Core/Src/sha3.o ./Core/Src/sha512.d ./Core/Src/sha512.o ./Core/Src/sign.d ./Core/Src/sign.o ./Core/Src/stm32f4xx_hal_msp.d ./Core/Src/stm32f4xx_hal_msp.o ./Core/Src/stm32f4xx_it.d ./Core/Src/stm32f4xx_it.o ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/system_stm32f4xx.d ./Core/Src/system_stm32f4xx.o ./Core/Src/verify.d ./Core/Src/verify.o
 
 .PHONY: clean-Core-2f-Src
 

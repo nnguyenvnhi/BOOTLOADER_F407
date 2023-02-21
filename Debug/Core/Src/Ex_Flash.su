@@ -1,0 +1,10 @@
+Ex_Flash.c:10:13:Update_Signature	24	static
+Ex_Flash.c:16:13:Update_Publickey	24	static
+Ex_Flash.c:21:13:Update_HashValue	24	static
+Ex_Flash.c:27:13:Update_BootloaderCert	24	static
+Ex_Flash.c:33:13:Update_Application1Cert	24	static
+Ex_Flash.c:39:13:Update_Application2Cert	24	static
+Ex_Flash.c:45:13:Write_BootCert_To_ExFlash	8	static
+Ex_Flash.c:51:13:Write_App1Cert_To_ExFlash	8	static
+Ex_Flash.c:57:13:Write_App2Cert_To_ExFlash	8	static
+Ex_Flash.c:63:13:StoreAllCert	8	static
